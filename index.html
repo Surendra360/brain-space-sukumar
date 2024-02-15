@@ -5,29 +5,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brain Space-Sukumar</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+    <div class="cursor"></div>
+
+    <div class="nav">
+        <img src="images/logo-white_brain.space.svg" alt="brain.space">
+        <div class="nav-part-2">
+            <h4>HOME</h4>
+            <h4>TECHNOLOGY</h4>
+            <h4>SOLUTIONS</h4>
+            <h4>ABOUT</h4>
+            <h4>SPACE MISSION</h4>
+            <h4>CONTACT US</h4>
+        </div>
+        <i class="ri-menu-2-line"></i>
+    </div>
+
     <div class="main">
         <div class="page1">
-            <div class="nav">
-                <img src="images/logo-white_brain.space.svg" alt="brain.space">
-                <div class="nav-part-2">
-                    <h4>HOME</h4>
-                    <h4>TECHNOLOGY</h4>
-                    <h4>SOLUTIONS</h4>
-                    <h4>ABOUT</h4>
-                    <h4>SPACE MISSION</h4>
-                    <h4>CONTACT US</h4>
+
+            <video class="page1-video" autoplay loop muted
+                src="https://www.brain.space/wp-content/uploads/2023/07/BRAIN.SPACE-HERO-SHORT-LR_1.webm">
+            </video>
+        </div>
+
+        <div class="page2">
+            <h2>The Brain Data Company</h2>
+            <div class="page2-content">
+                <div class="left-page2">
+                    <div class="blur"></div>
+                    <img src="images/circular-gradients-loop-2.svg" alt="">
+                </div>
+                <div class="right-page2">
+                    <h1>Creating a new breed of Human AI</h1>
+                    <p>We have designed Brain Data collection and analysis tools to incorporate the Human element into
+                        AI-based technologies.This new breed of Human AI presents opportunities for innovation across
+                        industries and designs solutions based on the human mind.</p>
+                    <button>Explore our solutions</button>
                 </div>
             </div>
-            <video autoplay loop muted
-                src="https://www.brain.space/wp-content/uploads/2023/07/BRAIN.SPACE-HERO-SHORT-LR_1.webm"></video>
+        </div>
+
+        <div class="page3">
+            <div class="page3-content">
+                <div class="left-page3">
+                    <h1>Bridging the gap between Machine and Human Intelligence</h1>
+                    <p>By viewing mental and emotional states as objectively as a blood test, we can categorize, classify and model these patterns to create <span><b>Large Brain Models.</b></span> These models can predict behaviors, enable personalized experiences, and design tailor-made solutions for humanity.</p>
+                    <button>Explore our solutions</button>
+                </div>
+                <div class="right-page3">
+                    <img src="video/page3-vid.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="page4">
+                <img class="page4-top" src="https://www.brain.space/wp-content/themes/brain.space/assets/substracts/hp_intro_substract.svg" alt="oops">
+                <h3 class="page4-h">Introducing</h3>
+                <img class="helmet" src="images/p4-img1.webp" alt="">
+
+                <div class="page4-content1">
+                    <h2>The Brain Sensei™ 1.5 <br> headgear</h2>
+                    <p>Equipped with 115 sensors, the Brain Sensei™ 1.5 is a state-of-the-art <br> EEG headgear that delivers real-time, high resolution signals to a <br> dashboard designed for researchers.</p>
+                    <button>Lern More</button>
+                </div>
+
+                <div class="page4-content2">
+                    <h5><b>AutoDonning</b> technology calibrates the sensors to all head shapes and sizes, eliminating the need for a technician - making it super simple and fast to operate.</h5>
+                    <video class="page4-video" autoplay loop muted src="video/p4-con2-v1.png"></video>
+                </div>
+                <div class="page4-content3">
+                    <video class="page4-video" autoplay loop muted src="https://www.brain.space/wp-content/uploads/2023/07/03-brain-2.webm"></video>
+                    <div class="page4-content3-text">
+                        <h5>Now, Brain Data collection is possible with minimal setup time (5 minutes as compared to 30 minutes for existing solutions)</h5>
+                        <button>Explore Our Technologu</button>
+                    </div>
+                </div>
+                <div class="page4-content4">
+                    <h5><b>Brain GPS™</b> technology “maps the brain” and precisely places the sensors on each individual's unique scalp to locate the correct functional areas.</h5>
+                    <video class="page4-video" autoplay loop muted src="https://www.brain.space/wp-content/uploads/2023/07/04-brain.space_.-gps-scans-loop_1-2-1.webm"></video>
+                </div>
+                <div class="page4-content5">
+                    <video class="page4-video" autoplay loop muted src="https://www.brain.space/wp-content/uploads/2023/07/brain.space-sensei-form-loop-LR.mp4"></video>
+                    <div class="page4-content3-text">
+                        <h5>Brain GPS™ enables standardization of Brain Data for the first time, empowering meaningful and cooperative research processes.</h5>
+                        <button>Explore Our Technologu</button>
+                    </div>
+                </div>
+        </div>
+
+        <div class="page5">
+            <h3>The Ecosystem</h3>
+            <div class="page5-elem">
+                <div class="elem1">
+                    <h2>Introducing The first ever Brain-Data-as-a-Service platform</h2>
+                    <p>Brain-Data-as-a-Service supercharges the value of brain data, building a shared big data library that can be leveraged for the value of all participants, while keeping research data anonymous and private.</p>
+                    <button>Get in Touch</button>
+                </div>
+            </div>
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
 
     <script src="script.js"></script>
 </body>
