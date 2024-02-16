@@ -4,20 +4,22 @@
 }
 
 * {
- margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 html,
-body{
-width: 100%;
-height: 100%;
+body {
+    width: 100%;
+    height: 100%;
 }
+
 /* body{
     cursor: none;
 } */
 
-.cursor{
+.cursor {
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -28,7 +30,7 @@ height: 100%;
 }
 
 
-.page1{
+.page1 {
     width: 100%;
     height: 100vh;
     /* background-color: gray; */
@@ -36,7 +38,7 @@ height: 100%;
 }
 
 
-.nav{
+.nav {
     font-family: 'Poppins', sans-serif;
     width: 100%;
     display: flex;
@@ -48,19 +50,20 @@ height: 100%;
     mix-blend-mode: difference;
 }
 
-.nav-part-2{
+.nav-part-2 {
     display: flex;
     align-items: center;
     gap: 3.5vw;
 }
 
-.nav h4{
+.nav h4 {
     text-transform: uppercase;
     color: white;
     font-size: 0.9vw;
     font-weight: 400;
 }
-.nav i{
+
+.nav i {
     color: white;
     font-size: 1.5vw;
     font-weight: 900;
@@ -68,7 +71,7 @@ height: 100%;
 
 }
 
-.page1-video{
+.page1-video {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -79,7 +82,7 @@ height: 100%;
     border-bottom-right-radius: 100px;
 }
 
-.page2{
+.page2 {
     width: 100%;
     height: 100vh;
     position: relative;
@@ -87,7 +90,8 @@ height: 100%;
     font-family: archi;
 
 }
-.page2 h2{
+
+.page2 h2 {
     font-size: 1.8vw;
     /* line-height: 13vw; */
     font-weight: 100;
@@ -97,14 +101,15 @@ height: 100%;
 
 }
 
-.page2-content{
+.page2-content {
     margin-top: 5vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* background-color: red; */
 }
-.left-page2{
+
+.left-page2 {
     height: 400px;
     width: 42%;
     background-color: rgb(239, 239, 239);
@@ -112,14 +117,16 @@ height: 100%;
     position: relative;
     overflow: hidden;
 }
-.left-page2 img{
+
+.left-page2 img {
     object-fit: cover;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 0;
 }
-.blur{
+
+.blur {
     width: 50%;
     height: 100%;
     background-color: #ffffff42;
@@ -129,21 +136,25 @@ height: 100%;
     z-index: 9;
     position: relative;
 }
-.right-page2{
+
+.right-page2 {
     height: 400%;
     width: 45%;
 }
-.right-page2 h1{
+
+.right-page2 h1 {
     font-size: 3.2vw;
     font-weight: 100;
     letter-spacing: 2px;
 }
-.right-page2 p{
+
+.right-page2 p {
     font-size: 1.3vw;
     font-weight: 100;
-    margin: 2vw 0 ;
+    margin: 2vw 0;
 }
-.right-page2 button{
+
+.right-page2 button {
     padding: 15px 30px;
     font-weight: 100;
     font-size: 1.1vw;
@@ -154,16 +165,16 @@ height: 100%;
 
 /* page3 */
 
-.page3{
+.page3 {
     width: 100%;
     height: 100vh;
     position: relative;
-    padding: 8vw 5vw;  
+    padding: 8vw 5vw;
     font-family: archi;
     /* background-color: aquamarine;  */
 }
 
-.page3-content{
+.page3-content {
     /* margin-top: 5vw; */
     display: flex;
     align-items: center;
@@ -171,22 +182,26 @@ height: 100%;
     /* background-color: red; */
 
 }
-.left-page3{
+
+.left-page3 {
     width: 50%;
     height: 100%;
 }
-.left-page3 h1{
+
+.left-page3 h1 {
     font-size: 3.2vw;
     font-weight: 100;
     line-height: 3.5vw;
     margin: 0 0 3vh 0;
 }
-.left-page3 p{
+
+.left-page3 p {
     font-size: 1.3vw;
     font-weight: 100;
-    margin: 2vw 0 ;
+    margin: 2vw 0;
 }
-.left-page3 button{
+
+.left-page3 button {
     padding: 15px 30px;
     font-weight: 100;
     font-size: 1.1vw;
@@ -194,17 +209,19 @@ height: 100%;
     background-color: transparent;
     border: 2px solid black;
 }
-.right-page3{
+
+.right-page3 {
     width: 40%;
 }
-.right-page3 img{
+
+.right-page3 img {
     width: 100%;
     height: 50vh;
     object-fit: cover;
     border-radius: 20px;
 }
 
-.page4{
+.page4 {
     width: 100%;
     min-height: 100vh;
     background-image: url(images/page4-bg.png);
@@ -213,16 +230,18 @@ height: 100%;
     background-repeat: no-repeat;
     position: relative;
     font-family: archi;
-    /* padding-bottom: 10vw; */
+    padding-bottom: 10vw;
 }
-.page4-top{
-width: 100%;
-height: 18vh;
-margin-top: -1px;
-position: relative;
-/* background-color: red; */
+
+.page4-top {
+    width: 100%;
+    height: 18vh;
+    margin-top: -1px;
+    position: relative;
+    /* background-color: red; */
 }
-.page4-h{
+
+.page4-h {
     width: 100%;
     height: 18vh;
     text-align: center;
@@ -236,25 +255,29 @@ position: relative;
     justify-content: center;
     /* background-color: rgb(117, 47, 47); */
 }
-.helmet{
+
+.helmet {
     width: 100%;
 }
 
-.page4-content1{
+.page4-content1 {
     width: 100%;
     text-align: center;
     padding: 5vw 0;
 }
-.page4-content1 h2{
+
+.page4-content1 h2 {
     font-size: 3vw;
     font-weight: 100;
 }
-.page4-content1 p{
+
+.page4-content1 p {
     font-size: 1.3vw;
     font-weight: 100;
     padding: 2vw 0;
 }
-.page4-content1 button{
+
+.page4-content1 button {
     font-size: 1.2vw;
     font-weight: 100;
     padding: 1vw 3vw;
@@ -263,7 +286,7 @@ position: relative;
     border: 2px solid black;
 }
 
-.page4-content2{
+.page4-content2 {
     width: 100%;
     height: 50vh;
     display: flex;
@@ -273,7 +296,8 @@ position: relative;
     padding: 2vw 7vw;
     position: relative;
 }
-.page4-video{
+
+.page4-video {
     height: 100%;
     height: 100%;
     object-position: center;
@@ -281,14 +305,14 @@ position: relative;
     border-radius: 20px;
 }
 
-.page4-content2 h5{
+.page4-content2 h5 {
     width: 50%;
     height: 100%;
     font-weight: 100;
     font-size: 2vw;
 }
 
-.page4-content3{
+.page4-content3 {
     width: 100%;
     height: 50vh;
     display: flex;
@@ -298,17 +322,20 @@ position: relative;
     padding: 2vw 7vw;
     position: relative;
 }
-.page4-content3-text{
+
+.page4-content3-text {
     width: 50%;
     height: 100%;
 
 }
-.page4-content3-text h5{
+
+.page4-content3-text h5 {
     font-weight: 100;
     font-size: 2vw;
     margin-bottom: 3vw;
 }
-.page4-content3 button{
+
+.page4-content3 button {
     font-size: 1.2vw;
     font-weight: 100;
     padding: 1vw 2vw;
@@ -317,7 +344,7 @@ position: relative;
     border: 2px solid black;
 }
 
-.page4-content4{
+.page4-content4 {
     width: 100%;
     height: 50vh;
     display: flex;
@@ -327,14 +354,15 @@ position: relative;
     padding: 2vw 7vw;
     position: relative;
 }
-.page4-content4 h5{
+
+.page4-content4 h5 {
     width: 50%;
     height: 100%;
     font-weight: 100;
     font-size: 2vw;
 }
 
-.page4-content5{
+.page4-content5 {
     width: 100%;
     height: 50vh;
     display: flex;
@@ -344,17 +372,20 @@ position: relative;
     padding: 2vw 7vw;
     position: relative;
 }
-.page4-content5-text{
+
+.page4-content5-text {
     width: 50%;
     height: 100%;
 
 }
-.page4-content5-text h5{
+
+.page4-content5-text h5 {
     font-weight: 100;
     font-size: 2vw;
     margin-bottom: 3vw;
 }
-.page4-content5 button{
+
+.page4-content5 button {
     font-size: 1.2vw;
     font-weight: 100;
     padding: 1vw 2vw;
@@ -363,59 +394,138 @@ position: relative;
     border: 2px solid black;
 }
 
-.page5{
+.page5 {
     width: 100%;
     min-height: 100vh;
     background-image: url(images/page5-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    text-align: center;
     font-family: archi;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    position: relative;
 }
-.page5 h3{
-    padding-top: 7vw;
-    font-size: 1.3vw;
-    color: white;
-    letter-spacing: 0.6vw;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-.page5-elem{
+
+.page5-h {
     width: 100%;
-    height: 90vh;
-    /* background-color: red; */
-    display: flex;
-    justify-content: space-between;
-}
-.elem1{
-    text-align: start;
-    width: 50vw;
-    height: 100%;
-    padding:  7vw 9vw;
-}
-.elem1 h2{
-    font-size: 3.5vw;
-    font-weight: 100;
-    color: white;
-}
-.elem1 p{
+    text-align: center;
     font-size: 1.4vw;
+    color: white;
+    letter-spacing: 5px;
+    padding: 2vw 0;
+}
+
+.page5-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5vw 8vw;
+    margin-bottom: 200px;
+}
+
+.page5-info {
+    width: 30vw;
+    height: 100%;
+    color: #ffffff;
+    flex-shrink: 0;
+}
+
+.page5-info h2 {
+    font-size: 3vw;
     font-weight: 100;
     color: white;
 }
-.elem1 button{
+
+.page5-info p {
     font-size: 1.3vw;
     font-weight: 100;
-    padding: 0.7vw 2vw;
+    margin: 1vw 0;
+}
+
+.page5-info button {
+    font-size: 1vw;
+    font-weight: 100;
+    padding: 1vw 2vw;
     border-radius: 50px;
     background-color: transparent;
     border: 2px solid white;
     color: white;
     margin: 3vw 0;
 }
+
+.page5-elems {
+    flex-shrink: 0;
+    height: 95%;
+    width: 35vw;
+    background-color: rgba(255, 255, 255, 0.182);
+    -webkit-mask-image: url(https://www.brain.space/wp-content/themes/brain.space/assets/bg/home/ecosystem-box_bg_mob.svg);
+    -webkit-mask-size: cover;
+    -webkit-mask-position: bottom;
+    -webkit-mask-repeat: no-repeat;
+    backdrop-filter: blur(20px);
+    padding: 2vw;
+    margin: 0 3vw;
+    position: relative;
+}
+.page5-elems .arow{
+    width: 3vw;
+    height: 2vw;
+    position: absolute;
+    bottom: 1vw;
+    right: 2vw;
+    object-fit: contain;
+    opacity: 0.7;
+}
+
+.page5-elems span{
+    width: 2vw;
+    height: 2vw;
+    position: absolute;
+    bottom: 10vw;
+    left: 0;
+    font-size: 2vw;
+    font-weight: 100;
+    z-index: 999;
+    background-color: red;
+}
+.page5-elems img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1vw;
+}
+
+.page5-elems h2 {
+    font-family: archi;
+    font-size: 2.5vw;
+    font-weight: 100;
+    margin-bottom: 1vw;
+}
+
+.page5-elems p {
+    font-size: 1.2vw;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+
+.slider {
+    height: 5px;
+    width: 59%;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    background-color: rgb(255, 255, 255);
+    transform: translate(-50%,0);
+    overflow: hidden;
+}
+
+.slider-in {
+    height: 100%;
+    width: 17vw;
+    background-color: black;
+}
+
 
